@@ -1,0 +1,245 @@
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 350px;
+    border-radius: 15px;
+    background-color:#F2F2F2;
+    ;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    
+}
+
+.blue{
+    color: blue !important;
+}
+
+.cover-page{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.6)) , url('./img/cover-page2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 440px;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .cover-page {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.6)) , url('./img/cover-page1.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.cover-page h1 {
+    font-family: 'IBM Plex Sans' , sans-serif;
+    position: absolute;
+    font-weight: bold;
+    bottom: 24%;
+    left: 16%;
+}
+
+@media (max-width: 764px) {
+    .cover-page h1 {
+        font-family: 'IBM Plex Sans' , sans-serif;
+        position: absolute;
+        font-size: 24px;
+        bottom: 50px;
+        left: 16px;
+    }
+}
+
+.cover-page p {
+    font-family: 'IBM Plex Sans' , sans-serif;
+    position: absolute;
+    font-size: 16px;
+    font-weight: lighter;
+    bottom: 18%;
+    left: 16%;
+}
+
+@media (max-width: 768px) {
+    .cover-page p {
+        font-family: 'IBM Plex Sans' , sans-serif;
+        position: absolute;
+        font-size: 16px;
+        font-weight: lighter;
+        bottom: 16px;
+        left: 16px;
+    }
+}
+
+.tabs{
+    border-bottom: 2px solid#E0E0E0;
+    position:relative;
+}
+
+@media (max-width: 768px) {
+    .post-tab-pc {
+        display: none;
+    }
+
+    .edit-pc {
+        display: none;
+    }
+    .mobile-nav {
+        display: flex;
+    }
+}
+
+.active{
+    color: #000000;
+    padding-right: 0px;
+    position:absolute;
+    border-bottom: 2px solid #000000
+}
+
+.btn-dropdown{
+    background-color: #EDEEF0;
+    border: none;
+}
+
+.bottom-border{
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.para{
+    font-family: 'IBM Plex Sans' , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card p {
+    font-family: 'IBM Plex Sans' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.card h5 {
+    font-family: 'IBM Plex Sans' , sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.description{
+    font-family: 'IBM Plex Sans' , sans-serif;
+    font-size: 19px;
+    color: #868E96;    
+}
+
+.edit{
+    left: 82%;
+    bottom: 5%
+}
+
+@media (min-width: 768px) {
+    .edit {
+        display: none;
+    }
+    .post-tab-mobile{
+        display: none;
+    }
+    .mobile-nav {
+        display: none
+    }
+}
+
+.login-with-google-btn {
+    transition: background-color .3s, box-shadow .3s;
+      
+    padding: 12px 16px 12px 42px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 102px 11px;
+    
+    &:hover {
+      box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+    }
+    
+    &:active {
+      background-color: #eeeeee;
+    }
+    
+    &:focus {
+      outline: none;
+      box-shadow: 
+        0 -1px 0 rgba(0, 0, 0, .04),
+        0 2px 4px rgba(0, 0, 0, .25),
+        0 0 0 3px #c8dafc;
+    }
+}
+    
+    .login-with-facebook-btn {
+        transition: background-color .3s, box-shadow .3s;
+          
+        padding: 12px 16px 12px 42px;
+        border: none;
+        border-radius: 3px;
+        box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+        
+        color: #757575;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+        
+        background-image: url("./img/facebook.png");
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: 102px 15px;
+        
+        &:hover {
+          box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 2px 4px rgba(0, 0, 0, .25);
+        }
+        
+        &:active {
+          background-color: #eeeeee;
+        }
+        
+        &:focus {
+          outline: none;
+          box-shadow: 
+            0 -1px 0 rgba(0, 0, 0, .04),
+            0 2px 4px rgba(0, 0, 0, .25),
+            0 0 0 3px #c8dafc;
+        }
+    }
+
+
+    @media (max-width: 993px) {
+        .modal-img {
+            display: none;
+        }
+        .modal-para{
+            display: none;
+        }
+    }
